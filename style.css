@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page-container {
+    padding: 5rem;
+    background-color: rgb(185, 158, 70);
+    width: 100vw;
+}
+.cord {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    max-width: 18rem;
+    /* padding: 1rem; */
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    background-color: hsl(0, 0%, 98%);
+}
+.image-1 {
+    max-width: 18rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.image-3 {
+    display: none;
+}
+.word {
+    padding: 1rem;
+}
+.sub-int p {
+    font-size: 13px;
+    letter-spacing: 3px;
+    line-height: rem;
+    font-family: Montserrat;
+    color: hsl(212, 21%, 14%);
+}
+.mini-head {
+    font-size: 30px;
+    font-family: Fraunces;
+    margin: .8rem 0;
+    color: hsl(212, 21%, 14%);
+}
+.content {
+    font-size: 13px;
+    padding-right: .4rem;
+    font-family: Montserrat;
+    color: hsl(228, 12%, 48%);
+}
+.price {
+    display: flex;
+    margin: 1rem 0;
+}
+.price-1 {
+    color:  hsl(158, 36%, 37%);
+    font-size: 2rem;
+    margin-right: .7rem;
+    font-family: Fraunces;
+}
+.price-2 {
+    margin: .6rem;
+    text-decoration: line-through;
+    font-family: Montserrat;
+    color: hsl(228, 12%, 48%);
+}
+.cart {
+    background-color: hsl(158, 36%, 37%);
+    width: 15rem;
+    padding: .7rem;
+    flex-direction: row;
+    border-radius: .5rem;
+    font-family: Fraunces;
+    font-weight: 600;
+}
+.cart img {
+    width: 1rem;
+    margin-right: 7px;
+}
+.cart a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    background-color: rgb(83, 83, 172);
+    color: black;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media (min-width: 590px) {
+    .page-container {
+        background-color: blanchedalmond;
+        width: 100vw;
+    }
+    .container {
+        margin: 1rem;
+        max-width: 32rem;
+        height: 24rem;
+        padding-right: 1rem;
+        display: flex;
+        flex-direction: row;
+        background-color: hsl(0, 0%, 98%);
+    }
+    .word {
+        width: 25rem;
+        /* padding-right: .6rem; */
+    }
+    .image-1 {
+       display: none;
+    }
+    .image-3 {
+        margin-right: .7rem;
+        max-height: 24rem;
+        border-top-left-radius: 1em;
+        border-bottom-left-radius: 1em;
+        display: inline;
+    }
+    .cart {
+        width: 13rem;
+    }
+    .attribution {
+        margin-top: 2rem;
+    }  
+}
