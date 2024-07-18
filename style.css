@@ -24,6 +24,7 @@
     background-color: hsl(0, 0%, 98%);
 }
 .image-1 {
+    height: 15rem;
     max-width: 18rem;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -110,10 +111,6 @@ a:hover {
         display: flex;
         flex-direction: row;
         background-color: hsl(0, 0%, 98%);
-    }
-    .word {
-        width: 25rem;
-        /* padding-right: .6rem; */
     }
     .image-1 {
        display: none;
